@@ -1,0 +1,7 @@
+taskName,argString,numThreads,timeSeconds,result,runIndex
+OpenMP_8,results/OpenMP_8/vectors.txt 500 5000 12345,2,0.488354,623151,1
+OpenMP_8,results/OpenMP_8/vectors.txt 500 5000 12345,2,0.491658,623151,2
+OpenMP_8,results/OpenMP_8/vectors.txt 500 5000 12345,2,0.488389,623151,3
+OpenMP_8,results/OpenMP_8/vectors_large.txt 800 5000 12345,2,0.78666,998193,1
+OpenMP_8,results/OpenMP_8/vectors_large.txt 800 5000 12345,2,0.789572,998193,2
+OpenMP_8,results/OpenMP_8/vectors_large.txt 800 5000 12345,2,0.778253,998193,3
