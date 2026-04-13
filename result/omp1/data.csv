@@ -1,0 +1,17 @@
+program,mode,threads,time,result
+omp1,reduction,1,0.0971961,0
+omp1,no_reduction,1,0.10188,0
+omp1,reduction,2,0.0520166,0
+omp1,no_reduction,2,0.0529427,0
+omp1,reduction,3,0.0350423,0
+omp1,no_reduction,3,0.0330366,0
+omp1,reduction,4,0.0265317,0
+omp1,no_reduction,4,0.0272303,0
+omp1,reduction,6,0.0188574,0
+omp1,no_reduction,6,0.0172219,0
+omp1,reduction,8,0.0220712,0
+omp1,no_reduction,8,0.0219831,0
+omp1,reduction,10,0.018231,0
+omp1,no_reduction,10,0.0180064,0
+omp1,reduction,12,0.0158002,0
+omp1,no_reduction,12,0.0156153,0

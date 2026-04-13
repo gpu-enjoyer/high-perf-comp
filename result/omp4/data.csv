@@ -1,0 +1,17 @@
+program,mode,threads,time,result
+omp4,reduction,1,0.25459,1516
+omp4,critical,1,0.285484,1516
+omp4,reduction,2,0.159091,1516
+omp4,critical,2,0.143053,1516
+omp4,reduction,3,0.10438,1516
+omp4,critical,3,0.101451,1516
+omp4,reduction,4,0.0780376,1516
+omp4,critical,4,0.076199,1516
+omp4,reduction,6,0.0473225,1516
+omp4,critical,6,0.0469975,1516
+omp4,reduction,8,0.0613868,1516
+omp4,critical,8,0.0645924,1516
+omp4,reduction,10,0.0490218,1516
+omp4,critical,10,0.0501384,1516
+omp4,reduction,12,0.0489058,1516
+omp4,critical,12,0.0560586,1516
