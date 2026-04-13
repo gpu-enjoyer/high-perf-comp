@@ -13,9 +13,11 @@ def compute_thread_list(n):
     """
     if n is None or n <= 0:
         return [1]
-
-    points = {1, 2, 3, 4, n // 2, (2 * n) // 3, n - 2, n}
-    return sorted(t for t in points if 1 <= t <= n)
+    points = {1, 2, 3, 4, 
+              n // 2, n // 2 + 2, 
+              (2 * n) // 3, (2 * n) // 3 + 2,
+              n - 2, n, n + 2, n + 4}
+    return sorted(set(points))
 
 def update_config(config_path, thread_list):
     """ Edit conf/common.conf """
